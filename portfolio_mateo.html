@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      id="OpenSans-css"
+      href="https://fonts.googleapis.com/css?family=Montserrat%3A300%2C400&amp;ver=6.1.1"
+      type="text/css"
+      media="all"
+    />
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+      }
+      body,
+      html {
+        color: #555;
+        height: 100%;
+      }
+      .h1,
+      .h2,
+      .h3,
+      .h4,
+      .h5,
+      .h6,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      html {
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+      }
+      div {
+        display: block;
+      }
+
+      .row {
+        margin: 0;
+      }
+      .services {
+        padding: 25px 0;
+      }
+      .approach h2,
+      .portfolio-page h2,
+      .services h2,
+      .two-columns h2 {
+        border-bottom: 1.2px #c4d6e2 solid;
+      }
+
+      .about h2,
+      .approach h2,
+      .cta h2,
+      .one-column h2,
+      .portfolio h2,
+      .services h2,
+      .two-columns h2 {
+        display: inline-block;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 25px;
+      }
+      .h1,
+      .h2,
+      .h3,
+      .h4,
+      .h5,
+      .h6,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin-top: 0;
+        color: #333;
+      }
+      p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+      p {
+        margin: 0 0 10px;
+      }
+      .services .service h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+      .services img {
+        padding: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        max-width: 100px;
+        margin: auto;
+        display: block;
+      }
+      .services .service {
+        margin-bottom: 15px;
+        display: flex;
+      }
+      img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+      }
+
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+        width: 100%;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .navbar a:hover {
+        background: #f1f1f1;
+        color: black;
+      }
+
+      .navbar a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+
+      .description {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="navbar">
+      <a href="#home" class="active"> SERVICES</a>
+      <a href="#news">ABOUT ME</a>
+      <a href="#contact">PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+
+    <div class="row">
+      <div
+        class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 services"
+        id="services"
+      >
+        <div class="col-12 subtitle"><h2>Services</h2></div>
+        <div class="col-12 content">
+          <p>
+            As a freelance data analyst and data scientist, I translate data
+            into valuable and comprehensible insights. My goal is to improve
+            results, make the right decisions and save costs.
+          </p>
+          <p>
+            I am experienced in machine learning, supervised and unsupervised
+            algorithms and use data visualization techniques to present the
+            results. I use SQL, R, Python, QlikView and Tableau for my data
+            projects.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 service">
+            <div class="col-2 icon">
+              <img
+                src="https://www.Mateotenhoope.com/wp-content/uploads/2017/12/Business-person-chart.png"
+                alt="Icon data analysis"
+              />
+            </div>
+            <div class="col-10 description">
+              <h3>Data analysis</h3>
+              <p>
+                I am specialized in analyzing data. Results, trends and
+                recommendations are clearly presented in reports or tools.<br />
+                (<a href="https://www.Mateotenhoope.com/data-analysis/"
+                  >example</a
+                >)
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 service">
+            <div class="col-2 icon">
+              <img
+                src="https://www.Mateotenhoope.com/wp-content/uploads/2017/12/Business-person-presentation.png"
+                alt="Icon advice and coaching projects"
+              />
+            </div>
+            <div class="col-10 description">
+              <h3>Advice and coaching projects</h3>
+              <p>
+                Before and during data related projects, I give advice on the
+                progress of the project and I coach data analysts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 service">
+            <div class="col-2 icon">
+              <img
+                src="https://www.Mateotenhoope.com/wp-content/uploads/2017/12/Business-person-loop.png"
+                alt="Icon data analytics"
+              />
+            </div>
+            <div class="col-10 description">
+              <h3>Data analytics</h3>
+              <p>
+                Get more value from your data with prediction models and machine
+                learning techniques, for example by predicting behavior or
+                targeting the right customer.<br />
+                (<a href="https://www.Mateotenhoope.com/data-analytics/"
+                  >example</a
+                >)
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 service">
+            <div class="col-2 icon">
+              <img
+                src="https://www.Mateotenhoope.com/wp-content/uploads/2017/12/Business-person-interactive.png"
+                alt="Icon interactive infographics"
+              />
+            </div>
+            <div class="col-10 description">
+              <h3>(Interactive) infographics</h3>
+              <p>
+                Present your data in an inspiring way by using an infographic
+                rather than a piece of text. I create interactive infographics
+                which can be used internally or publicly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 service">
+            <div class="col-2 icon">
+              <img
+                src="https://www.Mateotenhoope.com/wp-content/uploads/2017/12/Business-dashboard.png"
+                alt="Icon dashboard"
+              />
+            </div>
+            <div class="col-10 description">
+              <h3>Dashboards</h3>
+              <p>
+                Dashboards show the most recent results in an interactive way.
+                By clicking and drilling, you will examine trends and patterns
+                yourself.<br />
+                (<a href="https://www.Mateotenhoope.com/dashboard-en/"
+                  >example</a
+                >)
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 service">
+            <div class="col-2 icon">
+              <img
+                src="https://www.Mateotenhoope.com/wp-content/uploads/2017/12/Business-website.png"
+                alt="Icon web development"
+              />
+            </div>
+            <div class="col-10 description">
+              <h3>Front-end web developer</h3>
+              <p>
+                As a web developer, I help to design and create the perfect
+                website for starters and freelancers. The website is optimized
+                for desktop and smartphone.<br />
+                (<a
+                  href="http://www.beautyclinichaarlem.nl"
+                  target="_blank"
+                  rel="noopener"
+                  >example</a
+                >)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="background-color: #c4d6e2">
+      <div
+        class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 about"
+        id="about-me"
+      >
+        <div class="col-12 subtitle"><h2>About me</h2></div>
+        <div class="col-12 content">
+          <p>
+            Hi, my name is Mateo and I work remotely as a<strong>
+              freelance data scientist</strong
+            >. I hold a Bachelor’s and Master’s degree in science (Business
+            Analytics, VU University Amsterdam).
+          </p>
+          <p>
+            Since I was young, I have always enjoyed to solve puzzles. So that’s
+            how I look at big data sets: to me it is one big puzzle I want to
+            solve. Finding patterns nobody else sees is the challenge to me.
+          </p>
+          <p>
+            I have been working as a data scientist for
+            <strong>more than ten years</strong> with experience in transport,
+            logistics and retail.&nbsp;I have worked for more than 25 companies
+            which gives me the ability to translate complex questions into
+            understandable insights.
+          </p>
+          <p>Do you want to work together? Please reach out to me by e-mail.</p>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
