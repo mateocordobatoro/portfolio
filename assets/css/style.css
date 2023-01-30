@@ -1,3 +1,8 @@
+@font-face {
+    font-family: GigaSans;
+    font-weight: bold;
+    src: url("./../fonts/GigaSansExtraBold.otf") format("opentype");
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -132,7 +137,7 @@ img {
   margin: auto;
   display: block;
 }
-.start .logo,
+.start .white-box,
 .start h2 {
   left: -50%;
   position: relative;
@@ -148,4 +153,18 @@ img {
 .start h2,
 footer .copyright {
   text-align: center;
+}
+.white-box {
+  width: 190px;
+  height: 190px;
+  background: rgb(255, 255, 255);
+  padding: 30px;
+}
+
+.white-box p {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: GigaSans;
+  color: #95B8CB;
+  
 }
