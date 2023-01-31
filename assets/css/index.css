@@ -10,25 +10,18 @@
   left: -50%;
   position: relative;
 
-  width: 190px;
-  height: 170px;
-  background: rgb(255, 255, 255);
+  width: 200px;
+  height: 180px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: rgb(255, 255, 255);
 }
 
 .white-box p {
-  margin: 0px;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   font-family: GigaSans;
   color: #95b8cb;
-}
-
-.white-box .logo-name {
-  vertical-align: middle;
+  line-height: 53px;
 }
 
 element.style {
