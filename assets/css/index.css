@@ -28,3 +28,26 @@ element.style {
   background-color: #c4d6e2;
 }
 
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #00203fff;
+  text-decoration: none;
+  border: 2px solid #00203fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a.button:active {
+  background-color: #00203fff;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
